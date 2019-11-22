@@ -1,0 +1,26 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(yellow, red);
+  justify-content: center;
+}
+
+.Header {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  justify-content: center;
+  background: linear-gradient(red, blue, red);
+}
+
+.UserData {
+  justify-content: center;
+  display: flex-wrap;
+}
