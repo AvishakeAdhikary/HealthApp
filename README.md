@@ -1,20 +1,85 @@
-# Health Application
-Created with CodeSandbox
+# Health App
+This is a simple health app built using React that allows users to input their health data and assess their risk of diabetes. It consists of two main components: Input and Udata.
 
-========================
+## Installation
+To run the health app locally, follow these steps:
 
-This is a health applicaiton that detects the chances of having diabetes in a patient.
+### Clone the repository:
+```bash
+git clone https://github.com/AvishakeAdhikary/HealthApp.git
+```
 
-This app is completely developed from scratch by me and requires React.js packages to run the application.
+### Navigate to the project directory:
+```bash
+cd HealthApp
+```
 
-To deploy this project into a webserver you will also need Node.js and Express.js packages.
+### Install the dependencies:
+```bash
+npm install
+```
 
-========================
+### Start the development server:
+```bash
+npm start
+```
+Open your web browser and visit ```http://localhost:3000``` to access the health app.
 
-I have tried to make this UI as simple as possible so that the inputs are user friendly and are commonly known by the user.
-This application is still not complete as it requires the algorithm.
-This algorithm was provided by a colleague of mine.
+## Components
+### 1. Input
+The Input component allows users to input their health data, including weight, height, gender, smoking habits, laziness level, pain status, and systolic blood pressure. Based on this data, the app assesses the user's risk of diabetes and displays a popup alert if necessary.
 
-========================
+#### Usage
+```jsx
+import Input from "./Input";
 
-I hope you like this application.
+const App = () => {
+  return (
+    <div>
+      {/* ... */}
+      <Input />
+      {/* ... */}
+    </div>
+  );
+};
+
+export default App;
+```
+### 2. Udata
+The Udata component handles user login functionality. It prompts the user to enter their name, email, heart rate, and birthday. Users can log in or log out, and their information is displayed when logged in.
+
+#### Usage
+```jsx
+import Udata from "./Udata";
+
+const App = () => {
+  return (
+    <div>
+      {/* ... */}
+      <Udata />
+      {/* ... */}
+    </div>
+  );
+};
+
+export default App;
+```
+Dependencies
+The health app relies on the following dependencies:
+
+```react: ^18.2.0```
+```react-date-picker: ^9.2.0```
+```react-dom: ^18.2.0```
+```react-scripts: ^5.1.0-next.14```
+
+## License
+This project is licensed under the MIT license. You can find the full license text in the LICENSE file.
+
+## Contributing
+Contributions to the Health App are welcome! If you find any issues or want to suggest improvements, please open an issue or submit a pull request on the GitHub repository.
+
+## Acknowledgements
+The health app was created by [Avishake Adhikary](https://github.com/AvishakeAdhikary). Special thanks to the contributors and the open-source community for their valuable contributions.
+
+## Contact
+If you have any questions or inquiries, please feel free to contact [Avishake Adhikary](mailto:avhishe.adhikary11@gmail.com).
