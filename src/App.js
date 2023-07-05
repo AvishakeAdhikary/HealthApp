@@ -17,11 +17,11 @@ class App extends React.Component {
         <br />
         <br />
         <div className="column">
-          <Udata />
+          <Udata className="flexed" />
         </div>
         <br />
         <div className="column">
-          <Input />
+          <Input className="flexed" />
         </div>
         <br />
       </div>
