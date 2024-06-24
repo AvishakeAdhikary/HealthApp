@@ -67,10 +67,24 @@ export default App;
 Dependencies
 The health app relies on the following dependencies:
 
-```react: ^18.2.0```
-```react-date-picker: ^9.2.0```
-```react-dom: ^18.2.0```
-```react-scripts: ^5.1.0-next.14```
+```json
+"dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-date-picker": "^11.0.0",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.1"
+  }
+```
 
 ## License
 This project is licensed under the MIT license. You can find the full license text in the LICENSE file.
